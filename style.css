@@ -1,0 +1,114 @@
+html{
+    background: url(./img/plano\ de\ fundo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+width: 800px;
+height: 402px;
+}
+.page{
+    height: 100vh;
+    width: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.page .texto{
+color: #fff;
+margin: 146px 72px 210px 50px ;
+}
+
+.page .texto h2{
+margin-bottom: 11px;
+font-size: 20px;
+font-weight: 900;
+}
+
+.page .texto p{
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.page .tamanho-do-formilario{
+background-color: #fff;
+width: 400px;
+height: 378px;
+border: 1px;
+margin-right: 52px;
+}
+
+.page .tamanho-do-formilario .formulario{
+    margin: 20px;
+}
+
+
+.page .tamanho-do-formilario .formulario .borda-do-formilario{
+    width: 298.01px;
+height: 35px;
+top: 244px;
+left: 20px;
+gap: 10px;
+border-radius: 5px;
+border: 1px 0px 0px 0px;
+opacity: 0px;
+margin-bottom: 10px;
+}
+/* placeholder formilario */
+
+.page .tamanho-do-formilario .formulario .borda-do-formilario::placeholder{
+    padding-left: 10px;
+}
+
+.page .tamanho-do-formilario .formulario .borda-do-formilario.borda-mensagem{
+    width: 298.01px;
+height: 100px;
+border: 1px 0px 0px 0px;
+opacity: 0px;
+}
+
+/* placeholder mensagem */
+.page .tamanho-do-formilario .formulario .borda-do-formilario.borda-mensagem::placeholder{
+position: relative;
+bottom:30px;
+}
+.page .tamanho-do-formilario .formulario .esconder{
+font-size: 8px;
+font-weight: 400;
+line-height: 9.38px;
+text-align: left;
+display: none;
+}
+
+.aparecer{
+    display: block;
+    color: #F52E2E;
+    position: relative;
+    bottom: 10px;
+    font-size: 8px;
+}
+
+.error-message{
+    font-size: 15px;
+    font-weight: 400;
+    }
+    
+button{
+width: 298.01px;
+height: 41.13px;
+margin: 20px 0;
+background-color: #3CCC87;
+border-radius: 5px;
+color: #FFFFFF;
+border-color:#3CCC87;
+}
+
+
+/* para o java */
+
+.input-verde {
+    border: 2px solid #00C22B;
+}
+.input-vermelho {
+    border: 2px solid #F52E2E;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <ul class="page">
+        <li class="texto">
+            <h2 >FICOU COM DÚVIDA? <br> NOS MANDE UMA MENSAGEM!</h2>
+            <p>Caso tenha ficado com qualquer dúvida, basta nos mandar uma mensagem e entraremos em
+                contato em menos de
+                24h.
+            </p>
+        </li>
+
+        <li class="tamanho-do-formilario">
+            <form id="meuFormulario" class="formulario">
+                <div class="campo">
+                    <input type="text" id="nome" class="borda-do-formilario" placeholder="Nome completo *"  />
+                    <label for="nome" class="esconder">Campo obrigatório</label>
+                </div>
+                <div class="campo">
+                    <input type="email" id="email" class="borda-do-formilario" placeholder="Email *"  />
+                    <label for="email" class="esconder">Campo obrigatório</label>
+                </div>
+                <div class="campo">
+                    <input type="tel" id="numero"  class="borda-do-formilario" placeholder="Telefone *"  />
+                    <label for="numero" class="esconder">Campo obrigatório</label>
+                </div>
+                <div class="campo">
+                    <input type="text" id="mensagem" class="borda-do-formilario borda-mensagem" placeholder="Mensagem *"  />
+                    <label for="mensagem" class="esconder">Campo obrigatório</label>
+                </div>
+                <div class="error-message" id="errorNome">* Campos obrigatórios</div>
+                <button type="submit">Enviar</button>
+            </form>
+        </li>
+    </ul>
+
+    <script type="text/javascript" src="formulario.js"></script>
+</body>
+
+</html>
